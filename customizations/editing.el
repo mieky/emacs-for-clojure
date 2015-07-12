@@ -70,3 +70,7 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; enable braces in osx
+(setq mac-option-modifier nil
+      mac-command-modifier 'meta)
